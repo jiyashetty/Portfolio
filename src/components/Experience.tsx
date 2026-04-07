@@ -70,9 +70,10 @@ const Experience = () => {
   };
 
   return (
-    <section id="experience" className="py-32 px-6 bg-gradient-to-br from-purple-50/50 to-blue-50/50 relative overflow-hidden">
+    <section id="experience" className="py-32 px-6 bg-gradient-to-br from-purple-50/50 to-blue-50/50 relative overflow-hidden min-h-screen">
       {/* Background decoration */}
       <div className="absolute top-0 left-1/4 w-72 h-72 bg-purple-200/30 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-200/30 rounded-full blur-3xl"></div>
 
       <div className="container mx-auto relative z-10">
         <motion.div
@@ -91,7 +92,7 @@ const Experience = () => {
 
           <div className="relative">
             {/* Timeline line */}
-            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-accent/30 hidden md:block"></div>
+            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-accent/50 to-accent/20 hidden md:block"></div>
 
             {experiences.map((exp, index) => (
               <motion.div
