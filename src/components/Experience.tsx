@@ -10,17 +10,30 @@ const Experience = () => {
 
   const experiences = [
     {
-      role: 'AI Engineer Intern',
-      company: 'Tech Innovation Labs',
-      period: 'June 2025 - Sept 2025',
-      description: 'Developing and deploying LLM-powered applications and automation tools that streamline business processes.',
+      role: 'Performance & Analytics Intern',
+      company: 'Hitachi Energy',
+      period: 'January 2026 to Present',
+      description: 'Developing statistical analytics models and interactive dashboards for KPI performance tracking and data-driven decision making.',
       achievements: [
-        'Built and deployed 3 production-ready LLM applications serving 500+ users',
-        'Reduced manual data processing time by 70% through intelligent automation',
-        'Implemented RAG-based system improving information retrieval accuracy by 40%',
-        'Collaborated with cross-functional teams to integrate AI solutions into existing workflows',
+        'Developed statistical analytics models using rolling mean, z-score, and standard deviation for KPI performance tracking and anomaly detection',
+        'Built interactive dashboards using Power BI, Excel and Dataverse to monitor performance metrics and support data-driven decision-making',
+        'Automated data processing workflows, reducing manual effort and improving reporting efficiency',
+        'Analyzed large-scale enterprise datasets to identify trends, patterns, and performance gaps',
       ],
-      technologies: ['Python', 'LangChain', 'OpenAI API', 'FastAPI', 'PostgreSQL', 'Docker', 'React'],
+      technologies: ['Power BI', 'Excel', 'Dataverse', 'Statistics', 'Data Analytics', 'KPI Tracking'],
+    },
+    {
+      role: 'AI/ML Intern',
+      company: 'L&D Nexus',
+      period: 'October 2025 to December 2025',
+      description: 'Integrated LLMs and APIs to generate validated, structured outputs for enterprise use cases with focus on modular and scalable system design.',
+      achievements: [
+        'Integrated LLMs and APIs to generate validated, structured outputs for enterprise use cases',
+        'Focused on modular and scalable system design, enabling reuse across multiple business workflows',
+        'Reduced manual research effort by automating data extraction and analysis processes',
+        'Collaborated in a team environment to build production-ready AI solutions aligned with real-world business needs',
+      ],
+      technologies: ['Python', 'LLMs', 'API Integration', 'Automation', 'Enterprise Solutions', 'Data Extraction'],
     },
   ];
 
